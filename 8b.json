@@ -1,0 +1,68 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "8b_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 29.565354662540766,
+	        "minpan": 0,
+	        "mintilt": -29.565354662540766
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 0.92,
+	                "frames": 23,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_circles.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depan8b.html",
+	            "opacity": "1.00;1.00",
+	            "position": "258.6103,2.9380",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Keluar kelas"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "8b",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"8b_tiles/8b_t_1b_%y_%x.jpg"},"down":{"src":"8b_tiles/8b_t_1d_%y_%x.jpg"},"front":{"src":"8b_tiles/8b_t_1f_%y_%x.jpg"},"height":2922,"left":{"src":"8b_tiles/8b_t_1l_%y_%x.jpg"},"right":{"src":"8b_tiles/8b_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"8b_tiles/8b_t_1u_%y_%x.jpg"},"width":2922},{"back":{"src":"8b_tiles/8b_t_2b_%y_%x.jpg"},"down":{"src":"8b_tiles/8b_t_2d_%y_%x.jpg"},"front":{"src":"8b_tiles/8b_t_2f_%y_%x.jpg"},"height":1461,"left":{"src":"8b_tiles/8b_t_2l_%y_%x.jpg"},"right":{"src":"8b_tiles/8b_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"8b_tiles/8b_t_2u_%y_%x.jpg"},"width":1461},{"back":{"src":"8b_tiles/8b_t_3b_%y_%x.jpg"},"down":{"src":"8b_tiles/8b_t_3d_%y_%x.jpg"},"front":{"src":"8b_tiles/8b_t_3f_%y_%x.jpg"},"height":731,"left":{"src":"8b_tiles/8b_t_3l_%y_%x.jpg"},"right":{"src":"8b_tiles/8b_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"8b_tiles/8b_t_3u_%y_%x.jpg"},"width":731},{"back":{"src":"8b_tiles/8b_t_4b_%y_%x.jpg"},"down":{"src":"8b_tiles/8b_t_4d_%y_%x.jpg"},"front":{"src":"8b_tiles/8b_t_4f_%y_%x.jpg"},"height":366,"left":{"src":"8b_tiles/8b_t_4l_%y_%x.jpg"},"right":{"src":"8b_tiles/8b_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"8b_tiles/8b_t_4u_%y_%x.jpg"},"width":366}],"multilevel":true,"preview":{"src":"8b_tiles/8b_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 88.69606398762231,
+	        "pan": 180,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

@@ -1,0 +1,126 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "depanruangguru_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 30.13566590842072,
+	        "minpan": 0,
+	        "mintilt": -30.13566590842072
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "ruangguru.html",
+	            "opacity": "1.00;1.00",
+	            "position": "49.3770,1.1092",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Ruang Guru"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "bitmap": "pap_marker_white.png",
+	            "bitmapscale": "1.0;1.1",
+	            "bitmaptype": "floating",
+	            "href": "javascript:",
+	            "opacity": "1.00;1.00",
+	            "position": "356.6921,-2.0363",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Ruang Kepala Sekolah"
+	            },
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depan9e&9f.html",
+	            "opacity": "1.00;1.00",
+	            "position": "88.0233,7.3617",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju depan 9E & 9F"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depan9c&9d.html",
+	            "opacity": "1.00;1.00",
+	            "position": "271.4926,24.5078",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju depan 9C & 9D"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "depanruangguru",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"depanruangguru_tiles/depanruangguru_t_1b_%y_%x.jpg"},"down":{"src":"depanruangguru_tiles/depanruangguru_t_1d_%y_%x.jpg"},"front":{"src":"depanruangguru_tiles/depanruangguru_t_1f_%y_%x.jpg"},"height":2840,"left":{"src":"depanruangguru_tiles/depanruangguru_t_1l_%y_%x.jpg"},"right":{"src":"depanruangguru_tiles/depanruangguru_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depanruangguru_tiles/depanruangguru_t_1u_%y_%x.jpg"},"width":2840},{"back":{"src":"depanruangguru_tiles/depanruangguru_t_2b_%y_%x.jpg"},"down":{"src":"depanruangguru_tiles/depanruangguru_t_2d_%y_%x.jpg"},"front":{"src":"depanruangguru_tiles/depanruangguru_t_2f_%y_%x.jpg"},"height":1420,"left":{"src":"depanruangguru_tiles/depanruangguru_t_2l_%y_%x.jpg"},"right":{"src":"depanruangguru_tiles/depanruangguru_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depanruangguru_tiles/depanruangguru_t_2u_%y_%x.jpg"},"width":1420},{"back":{"src":"depanruangguru_tiles/depanruangguru_t_3b_%y_%x.jpg"},"down":{"src":"depanruangguru_tiles/depanruangguru_t_3d_%y_%x.jpg"},"front":{"src":"depanruangguru_tiles/depanruangguru_t_3f_%y_%x.jpg"},"height":710,"left":{"src":"depanruangguru_tiles/depanruangguru_t_3l_%y_%x.jpg"},"right":{"src":"depanruangguru_tiles/depanruangguru_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depanruangguru_tiles/depanruangguru_t_3u_%y_%x.jpg"},"width":710},{"back":{"src":"depanruangguru_tiles/depanruangguru_t_4b_%y_%x.jpg"},"down":{"src":"depanruangguru_tiles/depanruangguru_t_4d_%y_%x.jpg"},"front":{"src":"depanruangguru_tiles/depanruangguru_t_4f_%y_%x.jpg"},"height":355,"left":{"src":"depanruangguru_tiles/depanruangguru_t_4l_%y_%x.jpg"},"right":{"src":"depanruangguru_tiles/depanruangguru_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depanruangguru_tiles/depanruangguru_t_4u_%y_%x.jpg"},"width":355}],"multilevel":true,"preview":{"src":"depanruangguru_tiles/depanruangguru_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 90,
+	        "pan": 180.00000000000003,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

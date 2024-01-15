@@ -1,0 +1,82 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "depanrkb_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 29.408505767054304,
+	        "minpan": 0,
+	        "mintilt": -29.408505767054304
+	    },
+	"hotspot": [
+	        {
+	            "bitmap": "pap_marker_white.png",
+	            "bitmapscale": "1.0;1.1",
+	            "bitmaptype": "floating",
+	            "href": "javascript:",
+	            "opacity": "1.00;1.00",
+	            "position": "40.7004,-1.5560",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Ruang Kelas Baru yang mana masih dalam proses pembangunan dan direncakan akan dibuka pada tahun ajaran baru 2024"
+	            },
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depantu.html",
+	            "opacity": "1.00;1.00",
+	            "position": "253.8521,27.6060",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Turun tangga menuju depan ruang TU"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "depanrkb",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"depanrkb_tiles/depanrkb_t_1b_%y_%x.jpg"},"down":{"src":"depanrkb_tiles/depanrkb_t_1d_%y_%x.jpg"},"front":{"src":"depanrkb_tiles/depanrkb_t_1f_%y_%x.jpg"},"height":2945,"left":{"src":"depanrkb_tiles/depanrkb_t_1l_%y_%x.jpg"},"right":{"src":"depanrkb_tiles/depanrkb_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depanrkb_tiles/depanrkb_t_1u_%y_%x.jpg"},"width":2945},{"back":{"src":"depanrkb_tiles/depanrkb_t_2b_%y_%x.jpg"},"down":{"src":"depanrkb_tiles/depanrkb_t_2d_%y_%x.jpg"},"front":{"src":"depanrkb_tiles/depanrkb_t_2f_%y_%x.jpg"},"height":1473,"left":{"src":"depanrkb_tiles/depanrkb_t_2l_%y_%x.jpg"},"right":{"src":"depanrkb_tiles/depanrkb_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depanrkb_tiles/depanrkb_t_2u_%y_%x.jpg"},"width":1473},{"back":{"src":"depanrkb_tiles/depanrkb_t_3b_%y_%x.jpg"},"down":{"src":"depanrkb_tiles/depanrkb_t_3d_%y_%x.jpg"},"front":{"src":"depanrkb_tiles/depanrkb_t_3f_%y_%x.jpg"},"height":737,"left":{"src":"depanrkb_tiles/depanrkb_t_3l_%y_%x.jpg"},"right":{"src":"depanrkb_tiles/depanrkb_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depanrkb_tiles/depanrkb_t_3u_%y_%x.jpg"},"width":737},{"back":{"src":"depanrkb_tiles/depanrkb_t_4b_%y_%x.jpg"},"down":{"src":"depanrkb_tiles/depanrkb_t_4d_%y_%x.jpg"},"front":{"src":"depanrkb_tiles/depanrkb_t_4f_%y_%x.jpg"},"height":369,"left":{"src":"depanrkb_tiles/depanrkb_t_4l_%y_%x.jpg"},"right":{"src":"depanrkb_tiles/depanrkb_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depanrkb_tiles/depanrkb_t_4u_%y_%x.jpg"},"width":369}],"multilevel":true,"preview":{"src":"depanrkb_tiles/depanrkb_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 88.22551730116291,
+	        "pan": 180,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

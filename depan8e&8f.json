@@ -1,0 +1,134 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "depan8e&8f_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 29.767652063592447,
+	        "minpan": 0,
+	        "mintilt": -29.767652063592447
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "8e.html",
+	            "opacity": "1.00;1.00",
+	            "position": "17.4989,1.1134",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Kelas 8E"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "8f.html",
+	            "opacity": "1.00;1.00",
+	            "position": "173.0004,-2.3054",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Kelas 8F"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "lapanganbelakang.html",
+	            "opacity": "1.00;1.00",
+	            "position": "332.6381,10.7684",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Lapangan belakang"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depan7g&8g.html",
+	            "opacity": "1.00;1.00",
+	            "position": "3.9770,4.2872",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju ke depan antara kelas 7G & 8G"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "depan8e&8f",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"depan8e&8f_tiles/depan8e&8f_t_1b_%y_%x.jpg"},"down":{"src":"depan8e&8f_tiles/depan8e&8f_t_1d_%y_%x.jpg"},"front":{"src":"depan8e&8f_tiles/depan8e&8f_t_1f_%y_%x.jpg"},"height":2881,"left":{"src":"depan8e&8f_tiles/depan8e&8f_t_1l_%y_%x.jpg"},"right":{"src":"depan8e&8f_tiles/depan8e&8f_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan8e&8f_tiles/depan8e&8f_t_1u_%y_%x.jpg"},"width":2881},{"back":{"src":"depan8e&8f_tiles/depan8e&8f_t_2b_%y_%x.jpg"},"down":{"src":"depan8e&8f_tiles/depan8e&8f_t_2d_%y_%x.jpg"},"front":{"src":"depan8e&8f_tiles/depan8e&8f_t_2f_%y_%x.jpg"},"height":1441,"left":{"src":"depan8e&8f_tiles/depan8e&8f_t_2l_%y_%x.jpg"},"right":{"src":"depan8e&8f_tiles/depan8e&8f_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan8e&8f_tiles/depan8e&8f_t_2u_%y_%x.jpg"},"width":1441},{"back":{"src":"depan8e&8f_tiles/depan8e&8f_t_3b_%y_%x.jpg"},"down":{"src":"depan8e&8f_tiles/depan8e&8f_t_3d_%y_%x.jpg"},"front":{"src":"depan8e&8f_tiles/depan8e&8f_t_3f_%y_%x.jpg"},"height":721,"left":{"src":"depan8e&8f_tiles/depan8e&8f_t_3l_%y_%x.jpg"},"right":{"src":"depan8e&8f_tiles/depan8e&8f_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan8e&8f_tiles/depan8e&8f_t_3u_%y_%x.jpg"},"width":721},{"back":{"src":"depan8e&8f_tiles/depan8e&8f_t_4b_%y_%x.jpg"},"down":{"src":"depan8e&8f_tiles/depan8e&8f_t_4d_%y_%x.jpg"},"front":{"src":"depan8e&8f_tiles/depan8e&8f_t_4f_%y_%x.jpg"},"height":361,"left":{"src":"depan8e&8f_tiles/depan8e&8f_t_4l_%y_%x.jpg"},"right":{"src":"depan8e&8f_tiles/depan8e&8f_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan8e&8f_tiles/depan8e&8f_t_4u_%y_%x.jpg"},"width":361}],"multilevel":true,"preview":{"src":"depan8e&8f_tiles/depan8e&8f_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 89.30295619077735,
+	        "pan": 180,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

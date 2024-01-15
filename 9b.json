@@ -1,0 +1,68 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "9b_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 29.36000046973708,
+	        "minpan": 0,
+	        "mintilt": -29.36000046973708
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 0.92,
+	                "frames": 23,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_circles.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "lapanganupacara.html",
+	            "opacity": "1.00;1.00",
+	            "position": "58.7803,3.4991",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Keluar kelas"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "9b",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"9b_tiles/9b_t_1b_%y_%x.jpg"},"down":{"src":"9b_tiles/9b_t_1d_%y_%x.jpg"},"front":{"src":"9b_tiles/9b_t_1f_%y_%x.jpg"},"height":2943,"left":{"src":"9b_tiles/9b_t_1l_%y_%x.jpg"},"right":{"src":"9b_tiles/9b_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"9b_tiles/9b_t_1u_%y_%x.jpg"},"width":2943},{"back":{"src":"9b_tiles/9b_t_2b_%y_%x.jpg"},"down":{"src":"9b_tiles/9b_t_2d_%y_%x.jpg"},"front":{"src":"9b_tiles/9b_t_2f_%y_%x.jpg"},"height":1472,"left":{"src":"9b_tiles/9b_t_2l_%y_%x.jpg"},"right":{"src":"9b_tiles/9b_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"9b_tiles/9b_t_2u_%y_%x.jpg"},"width":1472},{"back":{"src":"9b_tiles/9b_t_3b_%y_%x.jpg"},"down":{"src":"9b_tiles/9b_t_3d_%y_%x.jpg"},"front":{"src":"9b_tiles/9b_t_3f_%y_%x.jpg"},"height":736,"left":{"src":"9b_tiles/9b_t_3l_%y_%x.jpg"},"right":{"src":"9b_tiles/9b_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"9b_tiles/9b_t_3u_%y_%x.jpg"},"width":736},{"back":{"src":"9b_tiles/9b_t_4b_%y_%x.jpg"},"down":{"src":"9b_tiles/9b_t_4d_%y_%x.jpg"},"front":{"src":"9b_tiles/9b_t_4f_%y_%x.jpg"},"height":368,"left":{"src":"9b_tiles/9b_t_4l_%y_%x.jpg"},"right":{"src":"9b_tiles/9b_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"9b_tiles/9b_t_4u_%y_%x.jpg"},"width":368}],"multilevel":true,"preview":{"src":"9b_tiles/9b_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 88.08000140921125,
+	        "pan": 180,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

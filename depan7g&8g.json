@@ -1,0 +1,134 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "depan7g&8g_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 29.495259151000553,
+	        "minpan": 0,
+	        "mintilt": -29.495259151000553
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "7g.html",
+	            "opacity": "1.00;1.00",
+	            "position": "196.4487,0.6431",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Kelas 7G"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "8g.html",
+	            "opacity": "1.00;1.00",
+	            "position": "333.3391,1.3445",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Kelas 8G"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depantanggabelakang.html",
+	            "opacity": "1.00;1.00",
+	            "position": "187.7176,5.1507",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Depan tangga"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depan8e&8f.html",
+	            "opacity": "1.00;1.00",
+	            "position": "85.1278,19.8443",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju ke depan kelas 8E &8F"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "depan7g&8g",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"depan7g&8g_tiles/depan7g&8g_t_1b_%y_%x.jpg"},"down":{"src":"depan7g&8g_tiles/depan7g&8g_t_1d_%y_%x.jpg"},"front":{"src":"depan7g&8g_tiles/depan7g&8g_t_1f_%y_%x.jpg"},"height":2939,"left":{"src":"depan7g&8g_tiles/depan7g&8g_t_1l_%y_%x.jpg"},"right":{"src":"depan7g&8g_tiles/depan7g&8g_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan7g&8g_tiles/depan7g&8g_t_1u_%y_%x.jpg"},"width":2939},{"back":{"src":"depan7g&8g_tiles/depan7g&8g_t_2b_%y_%x.jpg"},"down":{"src":"depan7g&8g_tiles/depan7g&8g_t_2d_%y_%x.jpg"},"front":{"src":"depan7g&8g_tiles/depan7g&8g_t_2f_%y_%x.jpg"},"height":1470,"left":{"src":"depan7g&8g_tiles/depan7g&8g_t_2l_%y_%x.jpg"},"right":{"src":"depan7g&8g_tiles/depan7g&8g_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan7g&8g_tiles/depan7g&8g_t_2u_%y_%x.jpg"},"width":1470},{"back":{"src":"depan7g&8g_tiles/depan7g&8g_t_3b_%y_%x.jpg"},"down":{"src":"depan7g&8g_tiles/depan7g&8g_t_3d_%y_%x.jpg"},"front":{"src":"depan7g&8g_tiles/depan7g&8g_t_3f_%y_%x.jpg"},"height":735,"left":{"src":"depan7g&8g_tiles/depan7g&8g_t_3l_%y_%x.jpg"},"right":{"src":"depan7g&8g_tiles/depan7g&8g_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan7g&8g_tiles/depan7g&8g_t_3u_%y_%x.jpg"},"width":735},{"back":{"src":"depan7g&8g_tiles/depan7g&8g_t_4b_%y_%x.jpg"},"down":{"src":"depan7g&8g_tiles/depan7g&8g_t_4d_%y_%x.jpg"},"front":{"src":"depan7g&8g_tiles/depan7g&8g_t_4f_%y_%x.jpg"},"height":368,"left":{"src":"depan7g&8g_tiles/depan7g&8g_t_4l_%y_%x.jpg"},"right":{"src":"depan7g&8g_tiles/depan7g&8g_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan7g&8g_tiles/depan7g&8g_t_4u_%y_%x.jpg"},"width":368}],"multilevel":true,"preview":{"src":"depan7g&8g_tiles/depan7g&8g_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 88.48577745300166,
+	        "pan": 180,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

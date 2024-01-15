@@ -1,0 +1,134 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "depan8a&perpus_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 29.001344921528755,
+	        "minpan": 0,
+	        "mintilt": -29.001344921528755
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depanperpus.html",
+	            "opacity": "1.00;1.00",
+	            "position": "62.7186,16.2622",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju ke depan Perpustakaan"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "sampingtu.html",
+	            "opacity": "1.00;1.00",
+	            "position": "177.6643,6.9535",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju ke samping Ruang Tata Usaha"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "8a.html",
+	            "opacity": "1.00;1.00",
+	            "position": "279.8213,-0.3637",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Kelas 8A"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 34,
+	                "width": 72
+	            },
+	            "bitmap": "pap_runningArrowRight.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depan8b.html",
+	            "opacity": "1.00;1.00",
+	            "position": "308.9981,-4.3376",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "menuju ke depan kelas 8b"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "depan8a&perpus",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_1b_%y_%x.jpg"},"down":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_1d_%y_%x.jpg"},"front":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_1f_%y_%x.jpg"},"height":2992,"left":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_1l_%y_%x.jpg"},"right":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_1u_%y_%x.jpg"},"width":2992},{"back":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_2b_%y_%x.jpg"},"down":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_2d_%y_%x.jpg"},"front":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_2f_%y_%x.jpg"},"height":1496,"left":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_2l_%y_%x.jpg"},"right":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_2u_%y_%x.jpg"},"width":1496},{"back":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_3b_%y_%x.jpg"},"down":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_3d_%y_%x.jpg"},"front":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_3f_%y_%x.jpg"},"height":748,"left":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_3l_%y_%x.jpg"},"right":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_3u_%y_%x.jpg"},"width":748},{"back":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_4b_%y_%x.jpg"},"down":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_4d_%y_%x.jpg"},"front":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_4f_%y_%x.jpg"},"height":374,"left":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_4l_%y_%x.jpg"},"right":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan8a&perpus_tiles/depan8a&perpus_t_4u_%y_%x.jpg"},"width":374}],"multilevel":true,"preview":{"src":"depan8a&perpus_tiles/depan8a&perpus_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 87.00403476458628,
+	        "pan": 179.99999999999997,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

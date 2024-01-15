@@ -1,0 +1,200 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "lapanganupacara_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 29.580316838763515,
+	        "minpan": 0,
+	        "mintilt": -29.580316838763515
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 34,
+	                "width": 72
+	            },
+	            "bitmap": "pap_runningArrowRight.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "gerbangmasuk.html",
+	            "opacity": "1.00;1.00",
+	            "position": "199.8771,-4.3778",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Kembali ke gerbang masuk"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "labipa.html",
+	            "opacity": "1.00;1.00",
+	            "position": "71.2097,-6.2582",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "LAB IPA"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "9a.html",
+	            "opacity": "1.00;1.00",
+	            "position": "263.3414,-5.7892",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Kelas 9A"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "9b.html",
+	            "opacity": "1.00;1.00",
+	            "position": "297.4050,-6.6484",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Kelas 9B"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 34,
+	                "width": 72
+	            },
+	            "bitmap": "pap_runningArrowLeft.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "tempatwudhu9b.html",
+	            "opacity": "1.00;1.00",
+	            "position": "311.3941,-5.7892",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Tempat Wudhu/cuci tangan"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depan9c&9d.html",
+	            "opacity": "1.00;1.00",
+	            "position": "317.8749,0.8298",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Naik tangga antara kelas 9C & 9D"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depan9e&9f.html",
+	            "opacity": "1.00;1.00",
+	            "position": "29.3216,1.3038",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Naik tangga kanan antara kelas 9E & 9F"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "lapanganupacara",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"lapanganupacara_tiles/lapanganupacara_t_1b_%y_%x.jpg"},"down":{"src":"lapanganupacara_tiles/lapanganupacara_t_1d_%y_%x.jpg"},"front":{"src":"lapanganupacara_tiles/lapanganupacara_t_1f_%y_%x.jpg"},"height":2899,"left":{"src":"lapanganupacara_tiles/lapanganupacara_t_1l_%y_%x.jpg"},"right":{"src":"lapanganupacara_tiles/lapanganupacara_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"lapanganupacara_tiles/lapanganupacara_t_1u_%y_%x.jpg"},"width":2899},{"back":{"src":"lapanganupacara_tiles/lapanganupacara_t_2b_%y_%x.jpg"},"down":{"src":"lapanganupacara_tiles/lapanganupacara_t_2d_%y_%x.jpg"},"front":{"src":"lapanganupacara_tiles/lapanganupacara_t_2f_%y_%x.jpg"},"height":1450,"left":{"src":"lapanganupacara_tiles/lapanganupacara_t_2l_%y_%x.jpg"},"right":{"src":"lapanganupacara_tiles/lapanganupacara_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"lapanganupacara_tiles/lapanganupacara_t_2u_%y_%x.jpg"},"width":1450},{"back":{"src":"lapanganupacara_tiles/lapanganupacara_t_3b_%y_%x.jpg"},"down":{"src":"lapanganupacara_tiles/lapanganupacara_t_3d_%y_%x.jpg"},"front":{"src":"lapanganupacara_tiles/lapanganupacara_t_3f_%y_%x.jpg"},"height":725,"left":{"src":"lapanganupacara_tiles/lapanganupacara_t_3l_%y_%x.jpg"},"right":{"src":"lapanganupacara_tiles/lapanganupacara_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"lapanganupacara_tiles/lapanganupacara_t_3u_%y_%x.jpg"},"width":725},{"back":{"src":"lapanganupacara_tiles/lapanganupacara_t_4b_%y_%x.jpg"},"down":{"src":"lapanganupacara_tiles/lapanganupacara_t_4d_%y_%x.jpg"},"front":{"src":"lapanganupacara_tiles/lapanganupacara_t_4f_%y_%x.jpg"},"height":363,"left":{"src":"lapanganupacara_tiles/lapanganupacara_t_4l_%y_%x.jpg"},"right":{"src":"lapanganupacara_tiles/lapanganupacara_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"lapanganupacara_tiles/lapanganupacara_t_4u_%y_%x.jpg"},"width":363}],"multilevel":true,"preview":{"src":"lapanganupacara_tiles/lapanganupacara_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 88.74095051629055,
+	        "pan": 179.99999999999997,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

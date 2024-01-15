@@ -1,0 +1,156 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "depan9c&9d_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 29.796144043288887,
+	        "minpan": 0,
+	        "mintilt": -29.796144043288887
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "9d.html",
+	            "opacity": "1.00;1.00",
+	            "position": "311.6806,-5.5857",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Kelas 9D"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "9c.html",
+	            "opacity": "1.00;1.00",
+	            "position": "230.0654,-4.9415",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Kelas 9C"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 68,
+	                "width": 144
+	            },
+	            "bitmap": "pap_runningArrowRight2x.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "lapanganupacara.html",
+	            "opacity": "1.00;1.00",
+	            "position": "338.3172,18.9321",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Turun tangga menuju lapangan upacara"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 34,
+	                "width": 72
+	            },
+	            "bitmap": "pap_runningArrowLeft.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "parkirguru.html",
+	            "opacity": "1.00;1.00",
+	            "position": "189.6233,-1.3803",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Turun menuju tempat parkir guru"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depanruangguru.html",
+	            "opacity": "1.00;1.00",
+	            "position": "349.6052,8.0672",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju ke depan Ruang Guru"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "depan9c&9d",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"depan9c&9d_tiles/depan9c&9d_t_1b_%y_%x.jpg"},"down":{"src":"depan9c&9d_tiles/depan9c&9d_t_1d_%y_%x.jpg"},"front":{"src":"depan9c&9d_tiles/depan9c&9d_t_1f_%y_%x.jpg"},"height":2822,"left":{"src":"depan9c&9d_tiles/depan9c&9d_t_1l_%y_%x.jpg"},"right":{"src":"depan9c&9d_tiles/depan9c&9d_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan9c&9d_tiles/depan9c&9d_t_1u_%y_%x.jpg"},"width":2822},{"back":{"src":"depan9c&9d_tiles/depan9c&9d_t_2b_%y_%x.jpg"},"down":{"src":"depan9c&9d_tiles/depan9c&9d_t_2d_%y_%x.jpg"},"front":{"src":"depan9c&9d_tiles/depan9c&9d_t_2f_%y_%x.jpg"},"height":1411,"left":{"src":"depan9c&9d_tiles/depan9c&9d_t_2l_%y_%x.jpg"},"right":{"src":"depan9c&9d_tiles/depan9c&9d_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan9c&9d_tiles/depan9c&9d_t_2u_%y_%x.jpg"},"width":1411},{"back":{"src":"depan9c&9d_tiles/depan9c&9d_t_3b_%y_%x.jpg"},"down":{"src":"depan9c&9d_tiles/depan9c&9d_t_3d_%y_%x.jpg"},"front":{"src":"depan9c&9d_tiles/depan9c&9d_t_3f_%y_%x.jpg"},"height":706,"left":{"src":"depan9c&9d_tiles/depan9c&9d_t_3l_%y_%x.jpg"},"right":{"src":"depan9c&9d_tiles/depan9c&9d_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan9c&9d_tiles/depan9c&9d_t_3u_%y_%x.jpg"},"width":706},{"back":{"src":"depan9c&9d_tiles/depan9c&9d_t_4b_%y_%x.jpg"},"down":{"src":"depan9c&9d_tiles/depan9c&9d_t_4d_%y_%x.jpg"},"front":{"src":"depan9c&9d_tiles/depan9c&9d_t_4f_%y_%x.jpg"},"height":353,"left":{"src":"depan9c&9d_tiles/depan9c&9d_t_4l_%y_%x.jpg"},"right":{"src":"depan9c&9d_tiles/depan9c&9d_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan9c&9d_tiles/depan9c&9d_t_4u_%y_%x.jpg"},"width":353}],"multilevel":true,"preview":{"src":"depan9c&9d_tiles/depan9c&9d_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 89.38843212986667,
+	        "pan": 180,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

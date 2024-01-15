@@ -1,0 +1,156 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "depan8b_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 30.18127041053424,
+	        "minpan": 0,
+	        "mintilt": -30.18127041053424
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "8b.html",
+	            "opacity": "1.00;1.00",
+	            "position": "194.5254,5.0420",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Kelas 8B"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depan8a&perpus.html",
+	            "opacity": "1.00;1.00",
+	            "position": "118.4319,9.1846",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju ke depan Perpustakaan & kelas 8A"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "tengah7e&7f.html",
+	            "opacity": "1.00;1.00",
+	            "position": "293.8102,14.2451",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju ke tengah antara kelas 7E & 7F"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "lapanganbelakang.html",
+	            "opacity": "1.00;1.00",
+	            "position": "354.0578,21.5560",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju lapangan belakang"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 34,
+	                "width": 72
+	            },
+	            "bitmap": "pap_runningArrowLeft.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "toiletkantin.html",
+	            "opacity": "1.00;1.00",
+	            "position": "284.6492,-9.9470",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Toilet dan Kantin"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "depan8b",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"depan8b_tiles/depan8b_t_1b_%y_%x.jpg"},"down":{"src":"depan8b_tiles/depan8b_t_1d_%y_%x.jpg"},"front":{"src":"depan8b_tiles/depan8b_t_1f_%y_%x.jpg"},"height":2776,"left":{"src":"depan8b_tiles/depan8b_t_1l_%y_%x.jpg"},"right":{"src":"depan8b_tiles/depan8b_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan8b_tiles/depan8b_t_1u_%y_%x.jpg"},"width":2776},{"back":{"src":"depan8b_tiles/depan8b_t_2b_%y_%x.jpg"},"down":{"src":"depan8b_tiles/depan8b_t_2d_%y_%x.jpg"},"front":{"src":"depan8b_tiles/depan8b_t_2f_%y_%x.jpg"},"height":1388,"left":{"src":"depan8b_tiles/depan8b_t_2l_%y_%x.jpg"},"right":{"src":"depan8b_tiles/depan8b_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan8b_tiles/depan8b_t_2u_%y_%x.jpg"},"width":1388},{"back":{"src":"depan8b_tiles/depan8b_t_3b_%y_%x.jpg"},"down":{"src":"depan8b_tiles/depan8b_t_3d_%y_%x.jpg"},"front":{"src":"depan8b_tiles/depan8b_t_3f_%y_%x.jpg"},"height":694,"left":{"src":"depan8b_tiles/depan8b_t_3l_%y_%x.jpg"},"right":{"src":"depan8b_tiles/depan8b_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan8b_tiles/depan8b_t_3u_%y_%x.jpg"},"width":694},{"back":{"src":"depan8b_tiles/depan8b_t_4b_%y_%x.jpg"},"down":{"src":"depan8b_tiles/depan8b_t_4d_%y_%x.jpg"},"front":{"src":"depan8b_tiles/depan8b_t_4f_%y_%x.jpg"},"height":347,"left":{"src":"depan8b_tiles/depan8b_t_4l_%y_%x.jpg"},"right":{"src":"depan8b_tiles/depan8b_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depan8b_tiles/depan8b_t_4u_%y_%x.jpg"},"width":347}],"multilevel":true,"preview":{"src":"depan8b_tiles/depan8b_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 90,
+	        "pan": 180,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

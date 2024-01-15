@@ -1,0 +1,134 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "depantu_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 29.54749575538978,
+	        "minpan": 0,
+	        "mintilt": -29.54749575538978
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "sampingtu.html",
+	            "opacity": "1.00;1.00",
+	            "position": "174.6989,14.1450",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju samping TU"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "ruangtu.html",
+	            "opacity": "1.00;1.00",
+	            "position": "82.7604,11.0563",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Ruang Tata Usaha"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 84,
+	                "width": 204
+	            },
+	            "bitmap": "pap_perspectiveArrow2x.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depanrkb.html",
+	            "opacity": "1.00;1.00",
+	            "position": "-0.7121,11.9679",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Naik tangga menuju RKB (Ruang Kelas Baru)"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "toiletbelakangtu.html",
+	            "opacity": "1.00;1.00",
+	            "position": "19.1473,23.5418",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Toilet belakang Tata Usaha"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "depantu",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"depantu_tiles/depantu_t_1b_%y_%x.jpg"},"down":{"src":"depantu_tiles/depantu_t_1d_%y_%x.jpg"},"front":{"src":"depantu_tiles/depantu_t_1f_%y_%x.jpg"},"height":2896,"left":{"src":"depantu_tiles/depantu_t_1l_%y_%x.jpg"},"right":{"src":"depantu_tiles/depantu_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depantu_tiles/depantu_t_1u_%y_%x.jpg"},"width":2896},{"back":{"src":"depantu_tiles/depantu_t_2b_%y_%x.jpg"},"down":{"src":"depantu_tiles/depantu_t_2d_%y_%x.jpg"},"front":{"src":"depantu_tiles/depantu_t_2f_%y_%x.jpg"},"height":1448,"left":{"src":"depantu_tiles/depantu_t_2l_%y_%x.jpg"},"right":{"src":"depantu_tiles/depantu_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depantu_tiles/depantu_t_2u_%y_%x.jpg"},"width":1448},{"back":{"src":"depantu_tiles/depantu_t_3b_%y_%x.jpg"},"down":{"src":"depantu_tiles/depantu_t_3d_%y_%x.jpg"},"front":{"src":"depantu_tiles/depantu_t_3f_%y_%x.jpg"},"height":724,"left":{"src":"depantu_tiles/depantu_t_3l_%y_%x.jpg"},"right":{"src":"depantu_tiles/depantu_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depantu_tiles/depantu_t_3u_%y_%x.jpg"},"width":724},{"back":{"src":"depantu_tiles/depantu_t_4b_%y_%x.jpg"},"down":{"src":"depantu_tiles/depantu_t_4d_%y_%x.jpg"},"front":{"src":"depantu_tiles/depantu_t_4f_%y_%x.jpg"},"height":362,"left":{"src":"depantu_tiles/depantu_t_4l_%y_%x.jpg"},"right":{"src":"depantu_tiles/depantu_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depantu_tiles/depantu_t_4u_%y_%x.jpg"},"width":362}],"multilevel":true,"preview":{"src":"depantu_tiles/depantu_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 88.64248726616934,
+	        "pan": 180,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

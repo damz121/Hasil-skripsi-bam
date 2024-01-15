@@ -1,0 +1,156 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "depanmushola_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 29.919328422137752,
+	        "minpan": 0,
+	        "mintilt": -29.919328422137752
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depan9e&9f.html",
+	            "opacity": "1.00;1.00",
+	            "position": "265.9974,2.0599",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju lorong kelas 9E & 9F"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "mushola.html",
+	            "opacity": "1.00;1.00",
+	            "position": "53.8177,-2.0599",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Masuk mushola"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "9h.html",
+	            "opacity": "1.00;1.00",
+	            "position": "45.4954,-1.8224",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Kelas 9H"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "9g.html",
+	            "opacity": "1.00;1.00",
+	            "position": "1.5852,-1.1095",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Kelas 9G"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 34,
+	                "width": 72
+	            },
+	            "bitmap": "pap_runningArrowRight.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "sampingtu.html",
+	            "opacity": "1.00;1.00",
+	            "position": "283.8309,-4.0356",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju samping TU"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "depanmushola",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"depanmushola_tiles/depanmushola_t_1b_%y_%x.jpg"},"down":{"src":"depanmushola_tiles/depanmushola_t_1d_%y_%x.jpg"},"front":{"src":"depanmushola_tiles/depanmushola_t_1f_%y_%x.jpg"},"height":2891,"left":{"src":"depanmushola_tiles/depanmushola_t_1l_%y_%x.jpg"},"right":{"src":"depanmushola_tiles/depanmushola_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depanmushola_tiles/depanmushola_t_1u_%y_%x.jpg"},"width":2891},{"back":{"src":"depanmushola_tiles/depanmushola_t_2b_%y_%x.jpg"},"down":{"src":"depanmushola_tiles/depanmushola_t_2d_%y_%x.jpg"},"front":{"src":"depanmushola_tiles/depanmushola_t_2f_%y_%x.jpg"},"height":1446,"left":{"src":"depanmushola_tiles/depanmushola_t_2l_%y_%x.jpg"},"right":{"src":"depanmushola_tiles/depanmushola_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depanmushola_tiles/depanmushola_t_2u_%y_%x.jpg"},"width":1446},{"back":{"src":"depanmushola_tiles/depanmushola_t_3b_%y_%x.jpg"},"down":{"src":"depanmushola_tiles/depanmushola_t_3d_%y_%x.jpg"},"front":{"src":"depanmushola_tiles/depanmushola_t_3f_%y_%x.jpg"},"height":723,"left":{"src":"depanmushola_tiles/depanmushola_t_3l_%y_%x.jpg"},"right":{"src":"depanmushola_tiles/depanmushola_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depanmushola_tiles/depanmushola_t_3u_%y_%x.jpg"},"width":723},{"back":{"src":"depanmushola_tiles/depanmushola_t_4b_%y_%x.jpg"},"down":{"src":"depanmushola_tiles/depanmushola_t_4d_%y_%x.jpg"},"front":{"src":"depanmushola_tiles/depanmushola_t_4f_%y_%x.jpg"},"height":362,"left":{"src":"depanmushola_tiles/depanmushola_t_4l_%y_%x.jpg"},"right":{"src":"depanmushola_tiles/depanmushola_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depanmushola_tiles/depanmushola_t_4u_%y_%x.jpg"},"width":362}],"multilevel":true,"preview":{"src":"depanmushola_tiles/depanmushola_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 89.75798526641327,
+	        "pan": 180,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

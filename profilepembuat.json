@@ -1,0 +1,66 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "profilepembuat_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "restart": 5,
+	        "status": "off",
+	        "x": 0.02,
+	        "y": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 180,
+	        "maxtilt": 57.51836340947025,
+	        "minpan": 0,
+	        "mintilt": -57.51836340947025
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 0.92,
+	                "frames": 23,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_circles.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "halamanawal.html",
+	            "opacity": "0.00;0.00",
+	            "position": "0.1019,0.9426",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Back"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "norm"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "profilepembuat",
+	"image":{"baseindex":1,"bitmap":[{"height":1080,"src":"profilepembuat_tiles/profilepembuat_t_1_%y_%x.jpg","tilesize":540,"width":1080},{"height":540,"src":"profilepembuat_tiles/profilepembuat_t_2_%y_%x.jpg","tilesize":540,"width":540}],"multilevel":true,"preview":{"src":"profilepembuat_tiles/profilepembuat_preview.jpg"},"projection":"planar"},
+	"view": {
+	        "mode": "fitInWindow"
+	    }
+},
+"version": "4.1"
+}
+}

@@ -1,0 +1,112 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "tempatwudhu9b_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 36.35231950182526,
+	        "minpan": 0,
+	        "mintilt": -36.35231950182526
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "parkirguru.html",
+	            "opacity": "1.00;1.00",
+	            "position": "316.2135,3.4341",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Parkiran guru"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "lapanganupacara.html",
+	            "opacity": "1.00;1.00",
+	            "position": "152.0899,20.1586",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Ke lapangan upacara"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 68,
+	                "width": 144
+	            },
+	            "bitmap": "pap_runningArrowLeft2x.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depan9c&9d.html",
+	            "opacity": "1.00;1.00",
+	            "position": "47.5281,-6.2448",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Naik tangga antara kelas 9C & 9D"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "tempatwudhu9b",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_1b_%y_%x.jpg"},"down":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_1d_%y_%x.jpg"},"front":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_1f_%y_%x.jpg"},"height":2266,"left":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_1l_%y_%x.jpg"},"right":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_1r_%y_%x.jpg"},"tilesize":567,"up":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_1u_%y_%x.jpg"},"width":2266},{"back":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_2b_%y_%x.jpg"},"down":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_2d_%y_%x.jpg"},"front":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_2f_%y_%x.jpg"},"height":1133,"left":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_2l_%y_%x.jpg"},"right":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_2r_%y_%x.jpg"},"tilesize":567,"up":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_2u_%y_%x.jpg"},"width":1133},{"back":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_3b_%y_%x.jpg"},"down":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_3d_%y_%x.jpg"},"front":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_3f_%y_%x.jpg"},"height":567,"left":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_3l_%y_%x.jpg"},"right":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_3r_%y_%x.jpg"},"tilesize":567,"up":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_t_3u_%y_%x.jpg"},"width":567}],"multilevel":true,"preview":{"src":"tempatwudhu9b_tiles/tempatwudhu9b_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 90,
+	        "pan": 180,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

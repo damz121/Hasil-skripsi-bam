@@ -1,0 +1,134 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "depantanggabelakang_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 29.791718135137536,
+	        "minpan": 0,
+	        "mintilt": -29.791718135137536
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "lt2belakang.html",
+	            "opacity": "1.00;1.00",
+	            "position": "85.4525,15.4779",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Naik lt.2"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "tengah7e&7f.html",
+	            "opacity": "1.00;1.00",
+	            "position": "2.9104,20.0213",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju ke tengah antara kelas 7E & 7F"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 34,
+	                "width": 72
+	            },
+	            "bitmap": "pap_runningArrowRight.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "lapanganbelakang.html",
+	            "opacity": "1.00;1.00",
+	            "position": "198.7963,18.9435",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Lapangan belakang"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depan7g&8g.html",
+	            "opacity": "1.00;1.00",
+	            "position": "179.7170,19.4483",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju ke depan antara kelas 7G & 8G"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "depantanggabelakang",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_1b_%y_%x.jpg"},"down":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_1d_%y_%x.jpg"},"front":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_1f_%y_%x.jpg"},"height":2834,"left":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_1l_%y_%x.jpg"},"right":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_1u_%y_%x.jpg"},"width":2834},{"back":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_2b_%y_%x.jpg"},"down":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_2d_%y_%x.jpg"},"front":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_2f_%y_%x.jpg"},"height":1417,"left":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_2l_%y_%x.jpg"},"right":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_2u_%y_%x.jpg"},"width":1417},{"back":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_3b_%y_%x.jpg"},"down":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_3d_%y_%x.jpg"},"front":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_3f_%y_%x.jpg"},"height":709,"left":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_3l_%y_%x.jpg"},"right":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_3u_%y_%x.jpg"},"width":709},{"back":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_4b_%y_%x.jpg"},"down":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_4d_%y_%x.jpg"},"front":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_4f_%y_%x.jpg"},"height":355,"left":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_4l_%y_%x.jpg"},"right":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"depantanggabelakang_tiles/depantanggabelakang_t_4u_%y_%x.jpg"},"width":355}],"multilevel":true,"preview":{"src":"depantanggabelakang_tiles/depantanggabelakang_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 89.37515440541262,
+	        "pan": 180.00000000000003,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

@@ -1,0 +1,156 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "tengah7e&7f_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 359.99999999999994,
+	        "maxtilt": 29.65400174840764,
+	        "minpan": 0,
+	        "mintilt": -29.65400174840764
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "7e.html",
+	            "opacity": "1.00;1.00",
+	            "position": "286.0800,5.3643",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Kelas 7E"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depan8b.html",
+	            "opacity": "1.00;1.00",
+	            "position": "274.4000,11.0027",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju ke depan kelas 8b"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.28,
+	                "frames": 32,
+	                "height": 64,
+	                "width": 64
+	            },
+	            "bitmap": "pap_rings.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "7f.html",
+	            "opacity": "1.00;1.00",
+	            "position": "60.6400,8.3602",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Kelas 7F"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depantanggabelakang.html",
+	            "opacity": "1.00;1.00",
+	            "position": "80.6400,21.2317",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Menuju ke depan tangga"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 34,
+	                "width": 72
+	            },
+	            "bitmap": "pap_runningArrowLeft.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "toiletkantin.html",
+	            "opacity": "1.00;1.00",
+	            "position": "280.7200,2.1789",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Toilet & Kantin"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "tengah7e&7f",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_1b_%y_%x.jpg"},"down":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_1d_%y_%x.jpg"},"front":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_1f_%y_%x.jpg"},"height":2864,"left":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_1l_%y_%x.jpg"},"right":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_1u_%y_%x.jpg"},"width":2864},{"back":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_2b_%y_%x.jpg"},"down":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_2d_%y_%x.jpg"},"front":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_2f_%y_%x.jpg"},"height":1432,"left":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_2l_%y_%x.jpg"},"right":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_2u_%y_%x.jpg"},"width":1432},{"back":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_3b_%y_%x.jpg"},"down":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_3d_%y_%x.jpg"},"front":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_3f_%y_%x.jpg"},"height":716,"left":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_3l_%y_%x.jpg"},"right":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_3u_%y_%x.jpg"},"width":716},{"back":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_4b_%y_%x.jpg"},"down":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_4d_%y_%x.jpg"},"front":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_4f_%y_%x.jpg"},"height":358,"left":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_4l_%y_%x.jpg"},"right":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"tengah7e&7f_tiles/tengah7e&7f_t_4u_%y_%x.jpg"},"width":358}],"multilevel":true,"preview":{"src":"tengah7e&7f_tiles/tengah7e&7f_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 88.96200524522293,
+	        "pan": 179.99999999999997,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}

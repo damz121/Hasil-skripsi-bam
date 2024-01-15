@@ -1,0 +1,112 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer": {
+"key": "",
+"control": {
+        "mousemode": "drag",
+        "touchmode": "drag"
+    },
+"data": {
+        "id": "globalData",
+        "messageBoxStyle": "min-width: 25%; text-shadow: none; line-height: 100%; color:#ffffff; font-family: Arial,Helvetica,Sans-Serif; font-size: 15px; font-weight: 100; text-align:left; box-shadow: 4px 4px 1px 0px rgba(0,0,0,0.33);background: rgba(0,0,0,0.66);"
+    },
+"include": [
+        {
+            "src": "parkirguru_controls.json"
+        }
+    ],
+"node": {
+	"autoplay": {
+	        "pan": 2,
+	        "restart": 5,
+	        "status": "off",
+	        "tilt": 0,
+	        "zoom": 1
+	    },
+	"camera": {
+	        "maxpan": 360,
+	        "maxtilt": 29.530543050924546,
+	        "minpan": 0,
+	        "mintilt": -29.530543050924546
+	    },
+	"hotspot": [
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "gerbangmasuk.html",
+	            "opacity": "1.00;1.00",
+	            "position": "272.2770,21.7249",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Kembali ke gerbang masuk"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 42,
+	                "width": 102
+	            },
+	            "bitmap": "pap_perspectiveArrow.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "depan9c&9d.html",
+	            "opacity": "1.00;1.00",
+	            "position": "81.9707,2.2159",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Naik tangga menuju depan kelas 9C & 9D"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        },
+	        {
+	            "animation": {
+	                "duration": 1.0667,
+	                "frames": 32,
+	                "height": 34,
+	                "width": 72
+	            },
+	            "bitmap": "pap_runningArrowRight.png",
+	            "bitmapscale": "1.0",
+	            "bitmaptype": "floating",
+	            "href": "tempatwudhu9b.html",
+	            "opacity": "1.00;1.00",
+	            "position": "94.5140,-1.6972",
+	            "target": "",
+	            "textbox": {
+	                "align": "top",
+	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
+	                "text": "Tempat wudhu/cuci tangan"
+	            },
+	            "transition": "zoomin,2;blend,2",
+	            "unit": "deg"
+	        }
+	    ],
+	"hotspots": {
+	        "visible": true
+	    },
+	"id": "parkirguru",
+	"image":{"baseindex":1,"bitmap":[{"back":{"src":"parkirguru_tiles/parkirguru_t_1b_%y_%x.jpg"},"down":{"src":"parkirguru_tiles/parkirguru_t_1d_%y_%x.jpg"},"front":{"src":"parkirguru_tiles/parkirguru_t_1f_%y_%x.jpg"},"height":2868,"left":{"src":"parkirguru_tiles/parkirguru_t_1l_%y_%x.jpg"},"right":{"src":"parkirguru_tiles/parkirguru_t_1r_%y_%x.jpg"},"tilesize":480,"up":{"src":"parkirguru_tiles/parkirguru_t_1u_%y_%x.jpg"},"width":2868},{"back":{"src":"parkirguru_tiles/parkirguru_t_2b_%y_%x.jpg"},"down":{"src":"parkirguru_tiles/parkirguru_t_2d_%y_%x.jpg"},"front":{"src":"parkirguru_tiles/parkirguru_t_2f_%y_%x.jpg"},"height":1434,"left":{"src":"parkirguru_tiles/parkirguru_t_2l_%y_%x.jpg"},"right":{"src":"parkirguru_tiles/parkirguru_t_2r_%y_%x.jpg"},"tilesize":480,"up":{"src":"parkirguru_tiles/parkirguru_t_2u_%y_%x.jpg"},"width":1434},{"back":{"src":"parkirguru_tiles/parkirguru_t_3b_%y_%x.jpg"},"down":{"src":"parkirguru_tiles/parkirguru_t_3d_%y_%x.jpg"},"front":{"src":"parkirguru_tiles/parkirguru_t_3f_%y_%x.jpg"},"height":717,"left":{"src":"parkirguru_tiles/parkirguru_t_3l_%y_%x.jpg"},"right":{"src":"parkirguru_tiles/parkirguru_t_3r_%y_%x.jpg"},"tilesize":480,"up":{"src":"parkirguru_tiles/parkirguru_t_3u_%y_%x.jpg"},"width":717},{"back":{"src":"parkirguru_tiles/parkirguru_t_4b_%y_%x.jpg"},"down":{"src":"parkirguru_tiles/parkirguru_t_4d_%y_%x.jpg"},"front":{"src":"parkirguru_tiles/parkirguru_t_4f_%y_%x.jpg"},"height":359,"left":{"src":"parkirguru_tiles/parkirguru_t_4l_%y_%x.jpg"},"right":{"src":"parkirguru_tiles/parkirguru_t_4r_%y_%x.jpg"},"tilesize":480,"up":{"src":"parkirguru_tiles/parkirguru_t_4u_%y_%x.jpg"},"width":359}],"multilevel":true,"preview":{"src":"parkirguru_tiles/parkirguru_preview.jpg"},"projection":"cubic"},
+	"view": {
+	        "hfov": 88.59162915277363,
+	        "pan": 180,
+	        "tilt": 0
+	    }
+},
+"version": "4.1"
+}
+}
