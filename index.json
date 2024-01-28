@@ -19,7 +19,7 @@ PanoramaStudioViewerParams = {
 	        "autoplay": true,
 	        "id": "lAudio",
 	        "loop": true,
-	        "src": "selamat datang + backsound.mp3"
+	        "src": "index.mp3"
 	    },
 	"autoplay": {
 	        "pan": 2,
