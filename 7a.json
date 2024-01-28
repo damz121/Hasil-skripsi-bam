@@ -15,10 +15,16 @@ PanoramaStudioViewerParams = {
         }
     ],
 "node": {
+	"audio": {
+	        "autoplay": true,
+	        "id": "lAudio",
+	        "loop": false,
+	        "src": "7a.mp3"
+	    },
 	"autoplay": {
 	        "pan": 2,
 	        "restart": 5,
-	        "status": "off",
+	        "status": "on",
 	        "tilt": 0,
 	        "zoom": 1
 	    },

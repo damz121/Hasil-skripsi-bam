@@ -15,10 +15,16 @@ PanoramaStudioViewerParams = {
         }
     ],
 "node": {
+	"audio": {
+	        "autoplay": true,
+	        "id": "lAudio",
+	        "loop": false,
+	        "src": "7d.mp3"
+	    },
 	"autoplay": {
 	        "pan": 2,
 	        "restart": 5,
-	        "status": "off",
+	        "status": "on",
 	        "tilt": 0,
 	        "zoom": 1
 	    },
@@ -41,7 +47,7 @@ PanoramaStudioViewerParams = {
 	            "bitmaptype": "floating",
 	            "href": "depan7c&7d.html",
 	            "opacity": "1.00;1.00",
-	            "position": "232.6142,6.0453",
+	            "position": "232.5359,6.0453",
 	            "target": "",
 	            "textbox": {
 	                "align": "top",

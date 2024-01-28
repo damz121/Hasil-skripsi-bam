@@ -18,7 +18,7 @@ PanoramaStudioViewerParams = {
 	"autoplay": {
 	        "pan": 2,
 	        "restart": 5,
-	        "status": "off",
+	        "status": "on",
 	        "tilt": 0,
 	        "zoom": 1
 	    },

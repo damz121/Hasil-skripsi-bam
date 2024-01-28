@@ -210,6 +210,14 @@ PanoramaStudioViewerParams = {
                 "caption": "-"
             },
             {
+                "caption": "",
+                "id": "customMenuItem",
+                "onclick": "function(){ }"
+            },
+            {
+                "caption": "-"
+            },
+            {
                 "id": "gyroItem",
                 "onclick": "function(){  var gb = this.get('gyrobutton'); if (gb){ gb.onclick(); } else { this.viewer.enableGyroscope(!this.viewer.gyroscopeEnabled()); } }",
                 "oninit": "function(){  this.caption = this.viewer.tr('Gyroscope Control'); }"

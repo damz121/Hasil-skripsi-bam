@@ -1,0 +1,240 @@
+PanoramaStudioViewerParams = {
+"panoramaStudioViewer":
+{
+    "gallery": [
+        {
+            "href": "lapanganupacara.json",
+            "thumbnail": "lapanganupacara_tiles/lapanganupacara_thumb.jpg"
+        },
+        {
+            "href": "7a.json",
+            "thumbnail": "7a_tiles/7a_thumb.jpg"
+        },
+        {
+            "href": "7b.json",
+            "thumbnail": "7b_tiles/7b_thumb.jpg"
+        },
+        {
+            "href": "7c.json",
+            "thumbnail": "7c_tiles/7c_thumb.jpg"
+        },
+        {
+            "href": "7d.json",
+            "thumbnail": "7d_tiles/7d_thumb.jpg"
+        },
+        {
+            "href": "7e.json",
+            "thumbnail": "7e_tiles/7e_thumb.jpg"
+        },
+        {
+            "href": "7f.json",
+            "thumbnail": "7f_tiles/7f_thumb.jpg"
+        },
+        {
+            "href": "7g.json",
+            "thumbnail": "7g_tiles/7g_thumb.jpg"
+        },
+        {
+            "href": "8a.json",
+            "thumbnail": "8a_tiles/8a_thumb.jpg"
+        },
+        {
+            "href": "8b.json",
+            "thumbnail": "8b_tiles/8b_thumb.jpg"
+        },
+        {
+            "href": "8c.json",
+            "thumbnail": "8c_tiles/8c_thumb.jpg"
+        },
+        {
+            "href": "8d.json",
+            "thumbnail": "8d_tiles/8d_thumb.jpg"
+        },
+        {
+            "href": "8e.json",
+            "thumbnail": "8e_tiles/8e_thumb.jpg"
+        },
+        {
+            "href": "8f.json",
+            "thumbnail": "8f_tiles/8f_thumb.jpg"
+        },
+        {
+            "href": "8g.json",
+            "thumbnail": "8g_tiles/8g_thumb.jpg"
+        },
+        {
+            "href": "9a.json",
+            "thumbnail": "9a_tiles/9a_thumb.jpg"
+        },
+        {
+            "href": "9b.json",
+            "thumbnail": "9b_tiles/9b_thumb.jpg"
+        },
+        {
+            "href": "9c.json",
+            "thumbnail": "9c_tiles/9c_thumb.jpg"
+        },
+        {
+            "href": "9d.json",
+            "thumbnail": "9d_tiles/9d_thumb.jpg"
+        },
+        {
+            "href": "9e.json",
+            "thumbnail": "9e_tiles/9e_thumb.jpg"
+        },
+        {
+            "href": "9f.json",
+            "thumbnail": "9f_tiles/9f_thumb.jpg"
+        },
+        {
+            "href": "9g.json",
+            "thumbnail": "9g_tiles/9g_thumb.jpg"
+        },
+        {
+            "href": "9h.json",
+            "thumbnail": "9h_tiles/9h_thumb.jpg"
+        },
+        {
+            "href": "depan7c&7d.json",
+            "thumbnail": "depan7c&7d_tiles/depan7c&7d_thumb.jpg"
+        },
+        {
+            "href": "depan7c&depan7d.json",
+            "thumbnail": "depan7c&depan7d_tiles/depan7c&depan7d_thumb.jpg"
+        },
+        {
+            "href": "depan7g&8g.json",
+            "thumbnail": "depan7g&8g_tiles/depan7g&8g_thumb.jpg"
+        },
+        {
+            "href": "depan8a&perpus.json",
+            "thumbnail": "depan8a&perpus_tiles/depan8a&perpus_thumb.jpg"
+        },
+        {
+            "href": "depan8b.json",
+            "thumbnail": "depan8b_tiles/depan8b_thumb.jpg"
+        },
+        {
+            "href": "depan8e&8f.json",
+            "thumbnail": "depan8e&8f_tiles/depan8e&8f_thumb.jpg"
+        },
+        {
+            "href": "depan9c&9d.json",
+            "thumbnail": "depan9c&9d_tiles/depan9c&9d_thumb.jpg"
+        },
+        {
+            "href": "depan9e&9f.json",
+            "thumbnail": "depan9e&9f_tiles/depan9e&9f_thumb.jpg"
+        },
+        {
+            "href": "depangerbangmasuk.json",
+            "thumbnail": "depangerbangmasuk_tiles/depangerbangmasuk_thumb.jpg"
+        },
+        {
+            "href": "depanmushola.json",
+            "thumbnail": "depanmushola_tiles/depanmushola_thumb.jpg"
+        },
+        {
+            "href": "depanperpus.json",
+            "thumbnail": "depanperpus_tiles/depanperpus_thumb.jpg"
+        },
+        {
+            "href": "depanrkb.json",
+            "thumbnail": "depanrkb_tiles/depanrkb_thumb.jpg"
+        },
+        {
+            "href": "depanruangguru.json",
+            "thumbnail": "depanruangguru_tiles/depanruangguru_thumb.jpg"
+        },
+        {
+            "href": "depantanggabelakang.json",
+            "thumbnail": "depantanggabelakang_tiles/depantanggabelakang_thumb.jpg"
+        },
+        {
+            "href": "depantu.json",
+            "thumbnail": "depantu_tiles/depantu_thumb.jpg"
+        },
+        {
+            "href": "gerbangmasuk.json",
+            "thumbnail": "gerbangmasuk_tiles/gerbangmasuk_thumb.jpg"
+        },
+        {
+            "href": "halamanawal.json",
+            "thumbnail": "halamanawal_tiles/halamanawal_thumb.jpg"
+        },
+        {
+            "href": "index.json",
+            "thumbnail": "index_tiles/index_thumb.jpg"
+        },
+        {
+            "href": "kantin.json",
+            "thumbnail": "kantin_tiles/kantin_thumb.jpg"
+        },
+        {
+            "href": "Koperasi.json",
+            "thumbnail": "Koperasi_tiles/Koperasi_thumb.jpg"
+        },
+        {
+            "href": "labipa.json",
+            "thumbnail": "labipa_tiles/labipa_thumb.jpg"
+        },
+        {
+            "href": "lapanganbelakang.json",
+            "thumbnail": "lapanganbelakang_tiles/lapanganbelakang_thumb.jpg"
+        },
+        {
+            "href": "lt2belakang.json",
+            "thumbnail": "lt2belakang_tiles/lt2belakang_thumb.jpg"
+        },
+        {
+            "href": "mushola.json",
+            "thumbnail": "mushola_tiles/mushola_thumb.jpg"
+        },
+        {
+            "href": "parkirguru.json",
+            "thumbnail": "parkirguru_tiles/parkirguru_thumb.jpg"
+        },
+        {
+            "href": "Perpustakaan.json",
+            "thumbnail": "Perpustakaan_tiles/Perpustakaan_thumb.jpg"
+        },
+        {
+            "href": "profilepembuat.json",
+            "thumbnail": "profilepembuat_tiles/profilepembuat_thumb.jpg"
+        },
+        {
+            "href": "profilesekolah.json",
+            "thumbnail": "profilesekolah_tiles/profilesekolah_thumb.jpg"
+        },
+        {
+            "href": "ruangguru.json",
+            "thumbnail": "ruangguru_tiles/ruangguru_thumb.jpg"
+        },
+        {
+            "href": "ruangtu.json",
+            "thumbnail": "ruangtu_tiles/ruangtu_thumb.jpg"
+        },
+        {
+            "href": "sampingtu.json",
+            "thumbnail": "sampingtu_tiles/sampingtu_thumb.jpg"
+        },
+        {
+            "href": "tempatwudhu9b.json",
+            "thumbnail": "tempatwudhu9b_tiles/tempatwudhu9b_thumb.jpg"
+        },
+        {
+            "href": "tengah7e&7f.json",
+            "thumbnail": "tengah7e&7f_tiles/tengah7e&7f_thumb.jpg"
+        },
+        {
+            "href": "toiletbelakangtu.json",
+            "thumbnail": "toiletbelakangtu_tiles/toiletbelakangtu_thumb.jpg"
+        },
+        {
+            "href": "toiletkantin.json",
+            "thumbnail": "toiletkantin_tiles/toiletkantin_thumb.jpg"
+        }
+    ]
+}
+
+}

@@ -15,6 +15,12 @@ PanoramaStudioViewerParams = {
         }
     ],
 "node": {
+	"audio": {
+	        "autoplay": true,
+	        "id": "lAudio",
+	        "loop": false,
+	        "src": "profilesekolah.mp3"
+	    },
 	"autoplay": {
 	        "restart": 5,
 	        "status": "off",
