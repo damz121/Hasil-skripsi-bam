@@ -48,7 +48,7 @@ PanoramaStudioViewerParams = {
 	            "href": "lt2belakang.html",
 	            "opacity": "1.00;1.00",
 	            "position": "248.4697,4.5616",
-	            "target": "",
+	            "target": "_self",
 	            "textbox": {
 	                "align": "top",
 	                "style": "color:#ffffff; font-family: Arial, Helvetica, sans-serif; font-size: 12px; font-weight: normal; text-align:center; display: inline;",
